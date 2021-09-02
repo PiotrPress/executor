@@ -1,0 +1,28 @@
+{
+  "name": "piotrpress/executor",
+  "type": "library",
+  "license": "GPL-3.0",
+  "description": "This library is an object wrapper for an exec PHP function.",
+  "homepage": "https://PiotrPress",
+  "authors": [
+    {
+      "name": "Piotr Niewiadomski",
+      "homepage": "https://github.com/PiotrPress"
+    }
+  ],
+  "keywords": [
+    "command", "cli", "exec", "execute", "command-line", "commandline", "executor"
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "PiotrPress\\": "src/",
+      "PiotrPress\\Executor\\": "src/"
+    },
+    "classmap": [
+      "src"
+    ]
+  }
+}
